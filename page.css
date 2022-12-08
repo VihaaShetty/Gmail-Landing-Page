@@ -1,0 +1,298 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:14px;
+}
+
+
+.hero-section-desktop{
+    display:grid;
+    grid-template-columns:100px 100px;
+    grid-column-gap:5px;
+
+}
+.column{
+    display:inline-block;
+}
+
+.hero-section-desktop h1{
+    text-align:center;
+    font-size:56px;
+    margin-bottom: 48px;
+    line-height:1.25;
+}
+
+.hero-section-desktop p{
+    text-align:center;
+    line-height:1.5;
+    margin-bottom: 40px;
+}
+
+.hero-section-desktop .btn{
+    text-align:center;
+    font-size:16px;
+    line-height:40px;
+    margin-bottom: 48px;
+}
+@media (min-width:800px){
+    *{
+        font-size:16px;
+    }
+
+
+}
+
+.mr-auto{
+    margin-right:auto;
+}
+
+a{
+    text-decoration:none;
+    color:#666;
+    display:inline-block;
+}
+
+a:hover{
+    color:black;
+}
+
+header{
+    background: white;
+    box-shadow: 0 0 4px 2px #ddd;
+    /* position:fixed; */
+    width:100%;
+}
+
+.clear{
+    height:112px;
+}
+/* done */
+header img{
+    height: 34px;
+}
+
+.header-mobile nav{
+    height:56px;
+    display:flex;
+    align-items: center;
+    padding: 0 2.6%;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-desktop nav{
+    height:64px;
+    display:flex;
+    align-items: center;
+    padding: 0 2.6%;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn{
+    color:white;
+    background: #1a73e8;
+    padding: 0 24px;
+    line-height:38px;
+    border-radius:3px;
+    font-size:16px;
+    letter-spacing:0.25px;
+    font-weight:600;
+}
+.btn:hover{
+    color:white;
+    background:#174ea6;
+}
+
+.gmail-logo-text{
+    font-size:24px;
+    color:#666;
+    margin-left:8px;
+    font-weight:600;
+}
+
+footer{
+    padding:32px 16px;
+    background-color: #f8f8f8;
+}
+
+footer img{
+    height:36px;  
+}
+
+footer nav{
+    margin: 32px 0;
+}
+
+footer ul{
+    display:flex;
+    list-style:none;
+  
+}
+
+footer li{
+    margin-right:16px;
+}
+
+footer select{
+    margin-left:16px;
+    border:none;
+    border-color: lightslategray;
+    background-color:#f8f8f8;
+    padding:8px;
+    width:260px;
+    color:lightslategray;
+}
+footer select:hover{
+    color:black;
+}
+.help-icon{
+    color:white;
+    font-weight:600;
+    background:black;
+    height:20px;
+    width:20px;
+    display:inline-block;
+    text-align:center;
+    border-radius:99px;
+    margin-right:8px;
+}
+
+/* section */
+
+section{
+    padding:48px 24px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+h1,h2{
+    font-size:32px;
+    color:#222;
+    font-weight:600;
+    text-align:center;
+    margin:20px 0;
+    letter-spacing:1px;
+
+}
+h1{
+    font-size:42px;
+}
+
+p{
+    text-align:center;
+    margin:12px;
+}
+
+.hero-section, .hero-section-desktop, .avoid-suspicious-emails-section-desktop, .avoid-suspicious-emails-section-mobile, .never-drop-ball-section, .stay-organized-section {
+    background:#f8f8f8;
+}
+
+.hero-section img{
+    width:100%;
+}
+
+.get-gmail-section > * + *{
+    margin:28px 0;
+}
+
+.get-gmail-section img{
+    height:72px;
+}
+
+.get-gmail-section .btn{
+    line-height:48px;
+}
+
+.experience-gmail-section img{
+    height:48px;
+}
+
+.experience-gmail-section p{
+    margin-bottom:40px;
+}
+
+.m4{
+    margin:20px 48px;
+}
+
+.devices-section img{
+    width:100%;
+}
+
+.desktop-only{
+    display:none;
+}
+
+.header-mobile{
+    position:fixed;
+}
+.header-desktop{
+    position:fixed;
+}
+
+.header-desktop a{
+margin-left:20px;
+}
+
+.header-desktop .btn{
+    line-height:48px;
+}
+
+@media (min-width:800px){
+    h1{
+        font-size:48px;
+    }
+    h2{
+        font-size:42px;
+    }
+
+
+    .hero-section-desktop{
+        display:grid;
+    }
+
+    .section p, section h2{
+        text-align:center;
+    }
+
+    img{
+        max-width:100%;
+    }
+
+    .mobile-only{
+        display:none;
+
+    }
+    
+    .desktop-only{
+        display:block;
+    }
+    .take-action-section-desktop{
+        display:grid;
+        grid-template-columns:50% 50%;
+        column-gap:5%;
+        width:100%;
+        padding-left:4%;
+        padding-right:4%;
+    }
+
+    .take-action-section-desktop{
+        text-align:center;
+    }
+    .avoid-suspicious-emails-section-desktop{
+        display:grid;
+        grid-template-columns:50% 50%;
+        column-gap:5%;
+        
+        
+    }
+    .avoid-suspicious-emails-section-desktop p{
+        text-align:left;
+    }
+
+}
